@@ -1,0 +1,20 @@
+{
+  "name": "absolument-oui",
+  "version": "1.0.0",
+  "description": "Site de Absolument Oui",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-webpack build src",
+    "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
+    "docs:dev": "vuepress-webpack dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "2.0.0-rc.13",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.13",
+    "vuepress-theme-hope": "2.0.0-rc.48",
+    "sass-loader": "^14.2.1"
+  }
+}
