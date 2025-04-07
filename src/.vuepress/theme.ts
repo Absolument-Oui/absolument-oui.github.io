@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "Le Stagiaire",
-    url: "https://le-stagiaire.com",
+    url: "https://github.com/LeVraiStagiaire",
   },
 
   blog : {
