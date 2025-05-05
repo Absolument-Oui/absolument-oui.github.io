@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -12,4 +13,9 @@ export default defineUserConfig({
 
   // Enable it with pwa
   // shouldPrefetch: false,
+  plugins: [
+    googleAnalyticsPlugin({
+      id: "G-TYHZP4FJT4",
+    }),
+  ],
 });
