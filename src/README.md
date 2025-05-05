@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: Home
 heroImage: https://avatars.githubusercontent.com/u/82123406?s=512&v=4
-heroText: Asolument Oui
+heroText: Absolument Oui
 tagline: All we develop is small!
 heroFullScreen: true
 projects:
@@ -12,5 +12,4 @@ projects:
     name: InfoGare
     desc: Système de création d'infogares réalistes
     link: https://infogare.fr
-
 ---
